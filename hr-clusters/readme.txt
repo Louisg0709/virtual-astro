@@ -1,27 +1,27 @@
-http://www.sdss.org/
+[http://www.sdss.org/](http://www.sdss.org/)
 
 
 Sky server
-http://portal.sciserver.org/login-portal
-https://apps.sciserver.org/dashboard/
+[http://portal.sciserver.org/login-portal](http://portal.sciserver.org/login-portal)
+[https://apps.sciserver.org/dashboard/](https://apps.sciserver.org/dashboard/)
 
 
 
 Started with sky server tutorial
-http://skyserver.sdss.org/dr14/en/proj/basic/basichome.aspx
+[http://skyserver.sdss.org/dr14/en/proj/basic/basichome.aspx](http://skyserver.sdss.org/dr14/en/proj/basic/basichome.aspx)
 
 Howto’s for sky server e.g. how to start jupyter
-http://www.sciserver.org/wp-content/uploads/2018/07/SciServer-How-Tos.pdf
+[http://www.sciserver.org/wp-content/uploads/2018/07/SciServer-How-Tos.pdf](http://www.sciserver.org/wp-content/uploads/2018/07/SciServer-How-Tos.pdf)
 
 
-https://www.google.com/sky/
+[https://www.google.com/sky/](https://www.google.com/sky/)
 Stellarium
 
-http://simbad.u-strasbg.fr/simbad/
+[http://simbad.u-strasbg.fr/simbad/](http://simbad.u-strasbg.fr/simbad/)
 
-http://cdsweb.u-strasbg.fr/cgi-bin/Sesame
+[http://cdsweb.u-strasbg.fr/cgi-bin/Sesame](http://cdsweb.u-strasbg.fr/cgi-bin/Sesame)
 
-https://astroquery.readthedocs.io/en/latest/#available-services
+[https://astroquery.readthedocs.io/en/latest/#available-services](https://astroquery.readthedocs.io/en/latest/#available-services)
 
 
 
@@ -29,11 +29,11 @@ https://astroquery.readthedocs.io/en/latest/#available-services
 What astronomy is
 what is astronomy
 
-https://skyview.gsfc.nasa.gov/current/cgi/query.pl
-https://skyview.gsfc.nasa.gov/current/docs/batchpage.html
+[https://skyview.gsfc.nasa.gov/current/cgi/query.pl](https://skyview.gsfc.nasa.gov/current/cgi/query.pl)
+[https://skyview.gsfc.nasa.gov/current/docs/batchpage.html](https://skyview.gsfc.nasa.gov/current/docs/batchpage.html)
 
 Query skyview using python
-https://astroquery.readthedocs.io/en/latest/skyview/skyview.html
+[https://astroquery.readthedocs.io/en/latest/skyview/skyview.html](https://astroquery.readthedocs.io/en/latest/skyview/skyview.html)
 
 VSO
 https://sdac.virtualsolar.org/cgi/search
