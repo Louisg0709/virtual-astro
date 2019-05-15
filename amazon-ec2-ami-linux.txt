@@ -1,0 +1,22 @@
+Commands to initialise an amazon ec2 ami linux instance and install docker
+
+pull a docker image and start up
+
+also set user permission so that ec2-user can have permissionto start docker    
+
+
+
+   1  sudo yum update
+    2  sudo yum install docker
+    3  aws
+    4  aws s3 ls
+    5  sudo service docker start
+    6  sudo usermod -a -G docker ec2-user
+    7  docker info
+    8  docker pull mikeg64/jupyter-py3-astropy
+    9  docker run --rm -p 8888:8888 mikeg64/jupyter-py3-astropy
+   10  exit
+   11  sudo yum update
+   12  ls
+   13  history
+   14  docker run --rm -p 8888:8888 mikeg64/jupyter-py3-astropy
