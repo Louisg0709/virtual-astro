@@ -20,6 +20,9 @@ RUN pip3 install astroquery
 RUN pip3 install aplpy
 RUN pip3 install spectral-cube
 RUN pip3 install reproject
+RUN pip3 install seaborn
+RUN pip3 install astro-gala
+RUN pip3 install sunpy[dev]
 
 # Add Tini. Tini operates as a process subreaper for jupyter. This prevents
 # kernel crashes.
