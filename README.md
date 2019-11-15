@@ -9,6 +9,9 @@ With data analysis examples from Sloane Digital Sky survey. Includes examples of
 
 Run using the command: docker run --rm -p 8888:8888 mikeg64/jupyter-py3-astropy
 
+
+docker run -v E:\users\suilven\proj:/home/jupyter/notebooks --rm -p 8888:8888 mikeg64/jupyter-py3-astropy
+
 To access jupyter open a browser and paste in the address provided by the docker container session.
 
 Also contains matplotlib and scikit-learn (used for cluster classification)
