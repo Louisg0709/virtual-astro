@@ -8,7 +8,20 @@ FROM ubuntu:latest
 # Run a system update to get it up to speed
 # Then install python3 and pip3
 RUN apt-get update && apt-get install -y python3 \
-    python3-pip && apt-get install -y git-core
+    python3-pip && apt-get install -y git-core 
+RUN apt-get install -y wget && apt-get install -y build-essential
+RUN apt-get install -y cmake
+
+RUN wget http://heasarc.gsfc.nasa.gov/FTP/software/fitsio/c/cfitsio-3.47.tar.gz
+RUN tar -zxvf cfitsio-3.47.tar.gz
+
+RUN cd cfitsio-3.47 && ./configure && make all
+#RUN ls
+#RUN ["chmod a+x configure
+#RUN ./configure
+#RUN ["make", "all"]
+#RUN ["cd", ".."]
+
 
 # Install jupyter
 RUN pip3 install jupyter
@@ -22,10 +35,12 @@ RUN pip3 install spectral-cube
 RUN pip3 install reproject
 RUN pip3 install seaborn
 RUN pip3 install astro-gala
-RUN pip3 install synphot
+#RUN pip3 install -e .
+#RUN pip3 install synphot
 RUN pip3 install dust_extinction
 RUN pip3 install dust_extinction --upgrade
 RUN pip3 install sunpy[dev]
+RUN pip3 install pycfitsio
 
 # Add Tini. Tini operates as a process subreaper for jupyter. This prevents
 # kernel crashes.
